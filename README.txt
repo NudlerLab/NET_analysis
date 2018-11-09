@@ -1,0 +1,18 @@
+Welcome to the Nudler lab NET-seq analysis pipeline!!
+
+right now, this project takes a demultiplexed zipped fastq file as input. The example file name is: 'wt-mmc.fastq.gz'
+the first notebook named 'code_Nudler_git_NET_get_map_files_from_fastq'. 
+make sure you change the file path to fit the location of files on your station before you start. This notebook  will trim the reads of this file for 20-mer or less in length. 
+i think it should make bowtie run faster.
+the output file from this notebook is named 'clean_Trimmed_wt-mmc.fastq.gz' and this file is used as input for bowtie 1. 
+the output from bowtie in this case is not a binary file but rather a text-based map file. why? I dont know!
+The map file is then used as input for the second notebook named 'code_Nudler_Git_NET_collect_3end_RNA'.
+This notebook will first collect the first nucleotide from each read. this nucletodei corresponds to the reverse complement of the 3' of the nascent RNA.
+the second and last function of this notebook will then call for positinos where we are calling pauses.
+
+
+Still much to do after wards but hey, the last time i was going over these codes was over 3 years ago...
+So what next?
+
+to be discussed in today's session!
+ 
