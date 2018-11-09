@@ -1,5 +1,7 @@
 Welcome to the Nudler lab NET-seq analysis pipeline!!
 
+data files are at: brick1/netseq_tutorial
+
 right now, this project takes a demultiplexed zipped fastq file as input. The example file name is: 'wt-mmc.fastq.gz'
 the first notebook named 'code_Nudler_git_NET_get_map_files_from_fastq'. 
 make sure you change the file path to fit the location of files on your station before you start. This notebook  will trim the reads of this file for 20-mer or less in length. 
