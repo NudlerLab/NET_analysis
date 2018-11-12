@@ -107,3 +107,4 @@ venv.bak/
 *.fastq.gz
 *.map
 *.ebwt
+*.bam 
