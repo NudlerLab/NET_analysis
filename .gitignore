@@ -106,3 +106,4 @@ venv.bak/
 # datafiles
 *.fastq.gz
 *.map
+*.ebwt
