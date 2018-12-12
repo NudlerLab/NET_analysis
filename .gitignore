@@ -111,6 +111,7 @@ venv.bak/
 *.sam
 *.fa
 *.bed
+*.gtf
 
 #Mac
 .DS_Store
