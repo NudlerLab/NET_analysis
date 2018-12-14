@@ -112,6 +112,8 @@ venv.bak/
 *.fa
 *.bed
 *.gtf
+*.pptx
+*.pdf
 
 #Mac
 .DS_Store
