@@ -27,7 +27,7 @@ setup(
     packages=find_packages(),
     package_dir={"NETSeq": "NETSeq"},
     package_data=get_package_data(),
-    description="scripts, functions and vizualization tools for NGS data",
+    description="NET-Seq data analysis pipeline",
     # run pandoc --from=markdown --to=rst --output=README.rst README.md
     long_description=open("README.rst").read(),
     # numpy is here to make installing easier... Needs to be at the
@@ -35,6 +35,7 @@ setup(
     # "python setup.py install"
     install_requires=["numpy",
                       "pandas >= 0.16.0",
+                      "seaborn",
                       "jupyter"],
     classifiers=['Intended Audience :: Science/Research',
                  'Programming Language :: Python',
