@@ -13,20 +13,30 @@ To install using ``pip`` and ``venv``:
 
 -  create virtual environment:
 
-   $ python3 -m venv /path/to/venv
+   ::
+
+       $ python3 -m venv /path/to/venv
 
 -  activate it and update ``pip``:
 
-   $ /path/to/venv/bin/activate (venv-name) $ pip install -U pip
+   ::
+
+       $ /path/to/venv/bin/activate
+       (venv-name) $ pip install -U pip
 
 -  clone the repo:
 
-   (venv-name) $ git clone
-   https://github.com/NudlerLab/NET\_analysis.git
+   ::
+
+       (venv-name) $ git clone https://github.com/NudlerLab/NET_analysis.git
 
 -  navigate to ``NET_analysis`` directory and run install script (this
-   will install all dependencies): (venv-name) $ cd NET\_analysis
-   (venv-name) NET\_analysis $ pip install -e .
+   will install all dependencies):
+
+   ::
+
+       (venv-name) $ cd NET_analysis
+       (venv-name) NET_analysis $ pip install -e .
 
 data files are at: ``brick1/netseq_tutorial``
 
