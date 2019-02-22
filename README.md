@@ -59,3 +59,12 @@ to be discussed in today's session!
 - put the code into package
 - add more more explanation of what it does and how
 - explore how this can be adapted to eukaryotes
+
+### OUTPUT
+
+- Table 1: a table with two cols: (position, raw count signal) for each strand, normalized by total number of reads (RPM).
+- Table 2:  Same as Table 1 but this time instead of row count signal, Table 2 should list only positions where the count signal is strong/significant enough to be defined as a pause.
+- Fasta output for Weblogo: based on data from Table 2, extract from the genome-seq a 40nt window around the pause site.
+- Table 3:  Same as Table 2 but with an additional 'gene' col
+- Table 4:  Aggregation table with the mean/median pause number/1kb for each gene.
+- Table 5: Meta-analysis of raw count signal around a point of interest (terminators, TSS etc.)
