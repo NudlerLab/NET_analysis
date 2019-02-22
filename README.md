@@ -52,6 +52,9 @@ to be discussed in today's session!
 
 ### TODO:
 
+- make data location configurable
+- MAPQ filtering
+- data directory structure
 - put everything to dataframe
 - limit analysis to genes and take into account expression level
 - simulation (FDR!)
