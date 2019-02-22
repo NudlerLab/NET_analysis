@@ -63,6 +63,10 @@ to be discussed in today's session!
 - add more more explanation of what it does and how
 - explore how this can be adapted to eukaryotes
 
+### INPUT DATA
+
+- one directory per sample containing R1.fastq.gz and R2.fastq.gz
+
 ### OUTPUT
 
 - Table 1: a table with two cols: (position, raw count signal) for each strand, normalized by total number of reads (RPM).
