@@ -24,7 +24,7 @@ def make_counts(file_lis):
 def get_pos(g_file,gene):
 	gene_annot=pd.read_csv(g_file,sep='\t',header=None)
 	gene_strand=gene_annot[gene_annot[4]==gene].iloc[0][5]
-	gene_pos=((gene_annot[gene_annot[4]==gene].iloc[0][1])-12,((gene_annot[gene_annot[4]==gene].iloc[0][2])+13))
+	gene_pos=((gene_annot[gene_annot[4]==gene].iloc[0][1])+0,(gene_annot[gene_annot[4]==gene].iloc[0][2])+0)
 	return gene_pos,gene_strand
 
 def make_plot(gene_name,p_df,m_df,genome):
