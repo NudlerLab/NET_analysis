@@ -55,6 +55,7 @@ to be discussed in today's session!
 - make data location configurable
 - MAPQ filtering
 - data directory structure
+- have the ability to download the reference and build the index
 - put everything to dataframe
 - limit analysis to genes and take into account expression level
 - simulation (FDR!)
