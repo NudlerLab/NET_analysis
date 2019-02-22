@@ -68,3 +68,12 @@ to be discussed in today's session!
 - Table 3:  Same as Table 2 but with an additional 'gene' col
 - Table 4:  Aggregation table with the mean/median pause number/1kb for each gene.
 - Table 5: Meta-analysis of raw count signal around a point of interest (terminators, TSS etc.)
+
+### Dependencies
+
+- cutadapt
+- bowtie2
+- bedtools
+- pandas
+- jupyter
+- seaborn
