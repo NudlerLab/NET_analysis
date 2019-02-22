@@ -35,6 +35,7 @@ setup(
     # "python setup.py install"
     install_requires=["numpy",
                     "cutadapt",
+                    "bash_kernel",
                       "pandas >= 0.16.0",
                       "seaborn",
                       "jupyter"],
