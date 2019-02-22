@@ -34,6 +34,7 @@ setup(
     # last position, as that's the first installed with
     # "python setup.py install"
     install_requires=["numpy",
+                    "cutadapt",
                       "pandas >= 0.16.0",
                       "seaborn",
                       "jupyter"],
