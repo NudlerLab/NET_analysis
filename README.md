@@ -1,4 +1,4 @@
-# Nudler lab NET-seq analysis pipeline!!
+# Nudler lab NET-seq analysis pipeline
 
 This package provides scripts and `jupyter` notebooks to analyze `NET (Nascent
 Elongating Transcript)-Seq` data.
